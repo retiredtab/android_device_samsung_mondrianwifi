@@ -164,9 +164,6 @@ JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(LOCAL_PATH)/lineagehw|**/*.java
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(LOCAL_PATH)/config.fs
 
-# Power HAL
-TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(LOCAL_PATH)/power/power_ext.c
-
 # Security patch level - P905XXUABPE2
 VENDOR_SECURITY_PATCH := 2016-05-01
 
