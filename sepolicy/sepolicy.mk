@@ -21,4 +21,4 @@
 #    device/samsung/mondrianwifi/sepolicy/common
 
 BOARD_SEPOLICY_DIRS += \
-    device/samsung/mondrianwifi/sepolicy/common_tmp
+    device/samsung/mondrianwifi/sepolicy/common

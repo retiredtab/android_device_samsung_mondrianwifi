@@ -47,13 +47,6 @@ etc/wifi/nvram_net.txt_4354_a1
 vendor/firmware/bcm4335_V0031.0146.hcd
 vendor/firmware/bcm4350_V0301.0599.hcd
 
-# GPS
-lib/libloc_api_v02.so
-vendor/lib/libgeofence.so
-vendor/lib/libizat_core.so
-vendor/lib/liblbs_core.so
-vendor/lib/liblocationservice.so
-
 # Audio
 vendor/lib/libacdbloader.so
 # Stock would be: vendor/lib/libacdbloader.so:lib/libacdbloader.so
@@ -88,26 +81,6 @@ vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libSHIMDivxDrm.so
-
-# Adreno GPU
-vendor/lib/egl/eglsubAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libbccQTI.so
-vendor/lib/libC2D2.so
-vendor/lib/libc2d30-a3xx.so
-vendor/lib/libc2d30.so
-vendor/lib/libCB.so
-vendor/lib/libgsl.so
-vendor/lib/libllvm-qcom.so
-vendor/lib/libOpenCL.so
-vendor/lib/libsc-a3xx.so
-vendor/lib/libscale.so
-etc/firmware/a330_pfp.fw
-etc/firmware/a330_pm4.fw
 
 # Graphics
 vendor/lib/libmm-color-convertor.so
@@ -150,7 +123,6 @@ lib/libsecril-client.so
 
 # Time services
 bin/time_daemon
--vendor/lib/libtime_genoff.so
 
 # Camera
 bin/mm-qcamera-daemon
@@ -216,7 +188,6 @@ lib/libmmcamera2_stats_algorithm.so
 lib/libmmcamera_cac2_lib.so
 lib/libmmcamera_fidelix_eeprom.so
 lib/libmmqjpeg_codec.so
-lib/libmmjpeg.so
 lib/libmmjpeg_interface.so
 lib/libsecnativefeature.so
 lib/libvdis.so
@@ -253,19 +224,12 @@ vendor/lib/libqc-opt.so
 
 # DRM
 bin/qseecomd
-framework/com.google.widevine.software.drm.jar
-lib/libdrmdecrypt.so
-vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/libwvm.so
-vendor/lib/libWVStreamControlAPI_L3.so
-vendor/lib/mediadrm/libwvdrmengine.so
 
 # IPC router security
 etc/sec_config
@@ -293,3 +257,4 @@ lib/hw/sensors.msm8974.so
 lib/librilutils.so
 lib/libqservice.so
 lib/libtinyxml.so
+
