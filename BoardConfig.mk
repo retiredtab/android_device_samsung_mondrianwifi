@@ -206,4 +206,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # inherit from the proprietary version
--include vendor/samsung/mondrianwifi/BoardConfigVendor.mk
+include vendor/samsung/mondrianwifi/BoardConfigVendor.mk
