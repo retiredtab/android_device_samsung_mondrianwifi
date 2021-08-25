@@ -76,6 +76,7 @@ QCOM_BT_USE_SMD_TTY := true
 
 # Camera
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
+MALLOC_SVELTE_FOR_LIBC32 := true
 
 # Charger
 BOARD_BATTERY_DEVICE_NAME := "battery"
