@@ -130,9 +130,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_camera
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
-
 # Doze
 PRODUCT_PACKAGES += \
     SamsungDoze
