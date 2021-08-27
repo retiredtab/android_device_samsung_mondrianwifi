@@ -64,3 +64,6 @@ ro.lineage.build.vendor_security_patch=2017-02-01
 
 # WiFi
 wifi.interface=wlan0
+
+# Updater
+lineage.updater.uri=https://nyyu.dev/lineage/api/v1/{device}/{type}/{incr}
