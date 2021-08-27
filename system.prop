@@ -60,7 +60,7 @@ debug.sensors=1
 net.tethering.noprovisioning=true
 
 # Vendor security patch level
-ro.lineage.build.vendor_security_patch=2016-05-01
+ro.lineage.build.vendor_security_patch=2017-02-01
 
 # WiFi
 wifi.interface=wlan0

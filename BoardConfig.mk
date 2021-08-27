@@ -84,8 +84,8 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
-# Security patch level - P905XXUABPE2
-VENDOR_SECURITY_PATCH := 2016-05-01
+# Security patch level
+VENDOR_SECURITY_PATCH := 2017-02-01
 
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../$(DEVICE_PATH)/recovery/recovery_keys.c
