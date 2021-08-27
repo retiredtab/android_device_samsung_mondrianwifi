@@ -123,6 +123,8 @@ on post-fs-data
     # For disabling softkeys *FIXME*
     chown root system /sys/class/leds/button-backlight/max_brightness
     chmod 0664 /sys/class/leds/button-backlight/max_brightness
+    chown system system /sys/class/sec/sec_touchkey/tsp_keys_enabled
+    chmod 0660 /sys/class/sec/sec_touchkey/tsp_keys_enabled
 
     # Torch
     chmod 0666 /sys/class/leds/torch-sec1/brightness
