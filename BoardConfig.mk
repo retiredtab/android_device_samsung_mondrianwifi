@@ -121,3 +121,8 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # inherit from the proprietary version
 include vendor/samsung/mondrianwifi/BoardConfigVendor.mk
+
+# TWRP Support - Optional
+ifeq ($(WITH_TWRP),true)
+-include $(DEVICE_PATH)/twrp.mk
+endif
