@@ -1,0 +1,2 @@
+allow init sysfs:file setattr;
+allow init system_file:file execute_no_trans;
