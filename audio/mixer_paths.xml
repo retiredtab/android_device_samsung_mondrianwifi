@@ -72,7 +72,7 @@
 	<ctl name="LINEOUT2 Volume" value="0" />
 	<ctl name="LINEOUT3 Volume" value="0" />
 	<ctl name="LINEOUT4 Volume" value="0" />
-	
+
 	<ctl name="SPK DRV Volume" value="0" />
 
 	<ctl name="DAC1 Switch" value="0" />
@@ -247,7 +247,7 @@
 		<ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="1" />
 		<ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="1" />
 	</path>
-	
+
 	<path name="incall-rec-uplink">
 		<ctl name="MultiMedia1 Mixer VOC_REC_UL" value="1" />
 	</path>
@@ -259,7 +259,7 @@
 	<path name="incall-rec-uplink-and-downlink">
 		<ctl name="MultiMedia1 Mixer VOC_REC_UL" value="1" />
 		<ctl name="MultiMedia1 Mixer VOC_REC_DL" value="1" />
-	</path>	
+	</path>
 	<!-- end of Verb -->
 
 	<!-- ================================================================ -->
@@ -321,8 +321,8 @@
 		<path name="ear" />
 		<ctl name="HPHL Volume" value="20" />
 		<ctl name="HPHR Volume" value="20" />
-		<ctl name="RX1 Digital Volume" value="80" />
-		<ctl name="RX2 Digital Volume" value="80" />
+		<ctl name="RX1 Digital Volume" value="77" />
+		<ctl name="RX2 Digital Volume" value="77" />
 		<ctl name="COMP1 Switch" value="1" />
 	</path>
 
@@ -336,12 +336,17 @@
 	</path>
 
 	<path name="speaker-and-headphones">
+		<path name="spk" />
 		<path name="ear" />
-		<ctl name="HPHL Volume" value="20" />
-		<ctl name="HPHR Volume" value="20" />
+		<ctl name="DAC1 Switch" value="1" />
+		<ctl name="HPHL Volume" value="0" />
+		<ctl name="HPHR Volume" value="0" />
 		<ctl name="RX1 Digital Volume" value="76" />
 		<ctl name="RX2 Digital Volume" value="76" />
-		<ctl name="COMP1 Switch" value="1" />
+		<ctl name="RX4 Digital Volume" value="83" />
+		<ctl name="RX6 Digital Volume" value="83" />
+		<ctl name="LINEOUT3 Volume" value="19" />
+		<ctl name="LINEOUT4 Volume" value="19" />
 	</path>
 
 	<path name="speaker-and-hdmi">
@@ -788,10 +793,10 @@
 
 	<path name="voip-headset-webex">
 		<path name="ear" />
-		<ctl name="HPHL Volume" value="15" />
-		<ctl name="HPHR Volume" value="15" />
-		<ctl name="RX1 Digital Volume" value="84" />
-		<ctl name="RX2 Digital Volume" value="84" />
+		<ctl name="HPHL Volume" value="19" />
+		<ctl name="HPHR Volume" value="19" />
+		<ctl name="RX1 Digital Volume" value="78" />
+		<ctl name="RX2 Digital Volume" value="78" />
 	</path>
 
 	<!-- TX part -->
@@ -1086,4 +1091,9 @@
         <path name="vr-sub-mic">
 	        <path name="vr-main-mic"/>
         </path>
+
+        <path name="voip-sub-mic-comm">
+	        <path name="voip-main-mic-comm"/>
+        </path>
+
 </mixer>
