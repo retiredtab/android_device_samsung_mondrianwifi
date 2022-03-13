@@ -14,7 +14,7 @@ persist.vendor.audio.fluence.voicerec=false
 ro.vendor.audio.sdk.fluencetype=fluence
 vendor.audio.offload.multiple.enabled=false
 vendor.audio_hal.period_size=192
-vendor.dedicated.device.for.voip=true
+vendor.dedicated.device.for.voip=false
 vendor.voice.path.for.pcm.voip=false
 
 # Bluetooth
