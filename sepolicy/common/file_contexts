@@ -11,3 +11,6 @@
 
 # system files
 /(vendor|system/vendor)/bin/init\.input\.sh              u:object_r:qti_init_shell_exec:s0
+
+# sensors
+/data/inv_cal_data.bin u:object_r:sensors_data_file:s0
