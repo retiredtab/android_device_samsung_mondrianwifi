@@ -899,6 +899,7 @@ service qmuxd /vendor/bin/qmuxd
     class core
     user radio
     group radio audio bluetooth gps oem_2950 log
+    disabled
 
 service macloader /vendor/bin/macloader
     class late_start
