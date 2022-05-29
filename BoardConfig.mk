@@ -20,6 +20,9 @@ DEVICE_PATH := device/samsung/mondrianwifi
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
+# APEX
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
 
