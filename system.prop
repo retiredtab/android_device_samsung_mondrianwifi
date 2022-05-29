@@ -17,6 +17,9 @@ vendor.audio_hal.period_size=192
 vendor.dedicated.device.for.voip=false
 vendor.voice.path.for.pcm.voip=false
 
+# BPF
+ro.kernel.ebpf.supported=false
+
 # Bluetooth
 vendor.qcom.bluetooth.soc=smd
 ro.bt.bdaddr_path=/efs/bluetooth/bt_addr
