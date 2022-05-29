@@ -52,6 +52,7 @@ BOARD_RAMDISK_USE_XZ := true
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_CONFIG := lineage_mondrian_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8974_tab
+TARGET_KERNEL_CLANG_COMPILE := false
 
 # Legacy BLOB Support
 TARGET_LD_SHIM_LIBS += \
