@@ -383,8 +383,8 @@
 	<!-- Recording Scenario  -->
 	<path name="rec-main-mic">
 		<path name="main-mic" />
-		<ctl name="ADC1 Volume" value="9" />
-		<ctl name="DEC6 Volume" value="83" />
+		<ctl name="ADC1 Volume" value="19" />
+		<ctl name="DEC6 Volume" value="87" />
 	</path>
 
 	<path name="rec-headset-mic">
