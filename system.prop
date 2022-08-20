@@ -22,6 +22,7 @@ ro.kernel.ebpf.supported=false
 
 # Bluetooth
 vendor.qcom.bluetooth.soc=smd
+ro.bluetooth.a2dp_offload.supported=false
 ro.bt.bdaddr_path=/efs/bluetooth/bt_addr
 
 # Camera
