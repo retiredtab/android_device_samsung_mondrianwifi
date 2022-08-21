@@ -88,9 +88,6 @@ TARGET_USERIMAGES_USE_F2FS         := true
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-# Keymaster
-TARGET_PROVIDES_KEYMASTER := true
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2017-02-01
 
