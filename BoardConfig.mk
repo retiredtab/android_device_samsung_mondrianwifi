@@ -107,6 +107,10 @@ include $(DEVICE_PATH)/sepolicy/sepolicy.mk
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
 
+# VNDK
+# Dedupe VNDK libraries with identical core variants.
+TARGET_VNDK_USE_CORE_VARIANT := true
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
