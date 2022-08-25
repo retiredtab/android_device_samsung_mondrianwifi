@@ -878,11 +878,6 @@ service thermal-engine /vendor/bin/thermal-engine
    socket thermal-recv-passive-client stream 0666 system system
    group root
 
-service audiod /system/bin/audiod
-    class late_start
-    user system
-    group system
-
 service irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     class main
     user root
@@ -903,16 +898,6 @@ service qmuxd /vendor/bin/qmuxd
     user radio
     group radio audio bluetooth gps oem_2950 log
     disabled
-
-service macloader /vendor/bin/macloader
-    class late_start
-    oneshot
-    user system
-    group system wifi
-    seclabel u:r:macloader:s0
-
-on property:wlan.driver.status=ok
-    start macloader
 
 on property:sys.boot_completed=1
     setprop sys.io.scheduler bfq
