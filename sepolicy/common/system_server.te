@@ -1,0 +1,2 @@
+allow system_server init:binder call;
+allow system_server build_bootimage_prop:file r_file_perms;
