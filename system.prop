@@ -39,7 +39,6 @@ dalvik.vm.heapmaxfree=8m
 # Display
 debug.mdpcomp.logs=0
 persist.hwc.mdpcomp.enable=true
-ro.sf.lcd_density=320
 lockscreen.rot_override=true
 
 # GPS
