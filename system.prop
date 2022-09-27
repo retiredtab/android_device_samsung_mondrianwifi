@@ -21,6 +21,7 @@ vendor.voice.path.for.pcm.voip=false
 ro.kernel.ebpf.supported=false
 
 # Bluetooth
+bluetooth.device.default_name=Samsung Galaxy Tab Pro 8.4
 vendor.qcom.bluetooth.soc=smd
 ro.bluetooth.a2dp_offload.supported=false
 ro.bt.bdaddr_path=/efs/bluetooth/bt_addr
