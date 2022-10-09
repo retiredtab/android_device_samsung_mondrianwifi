@@ -95,8 +95,6 @@ PRODUCT_COPY_FILES += \
 
 # Misc dependency packages
 PRODUCT_PACKAGES += \
-    libbson \
-    libnl_2 \
     libtinyxml
 
 # Radio
