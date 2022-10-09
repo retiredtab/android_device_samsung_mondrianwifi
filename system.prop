@@ -22,6 +22,7 @@ ro.kernel.ebpf.supported=false
 
 # Bluetooth
 bluetooth.device.default_name=Samsung Galaxy Tab Pro 8.4
+bluetooth.device.class_of_device=90,2,12
 vendor.qcom.bluetooth.soc=smd
 ro.bluetooth.a2dp_offload.supported=false
 ro.bt.bdaddr_path=/efs/bluetooth/bt_addr
