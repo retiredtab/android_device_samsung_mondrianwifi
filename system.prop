@@ -99,4 +99,4 @@ persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
 # Updater
-lineage.updater.uri=https://nyyu.dev/lineage/api/v1/{device}/{type}/{incr}?version=19.1
+lineage.updater.uri=https://nyyu.dev/lineage/api/v1/{device}/{type}/{incr}?version=20.0
