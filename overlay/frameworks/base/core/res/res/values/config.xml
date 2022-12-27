@@ -194,7 +194,7 @@
          Note: This is declared in both values/config.xml and values-sw600dp/config.xml.
                It is actually the latter definition that wins but overlay both
                to be on the safe side. -->
-    <bool name="config_enableLockScreenRotation">false</bool>
+    <bool name="config_enableLockScreenRotation">true</bool>
 
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
