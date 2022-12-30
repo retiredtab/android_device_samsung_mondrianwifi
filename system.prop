@@ -78,9 +78,6 @@ ro.vendor.qti.am.reschedule_service=true
 # Perf
 ro.vendor.extension_library=/vendor/lib/libqti-perfd-client.so
 
-# Radio
-ro.radio.noril=yes
-
 # Sensors
 debug.sensors=1
 
