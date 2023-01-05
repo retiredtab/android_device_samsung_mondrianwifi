@@ -360,6 +360,9 @@ on boot
     # overhead in the kernel. Turn it off.
     write /sys/block/mmcblk0/queue/add_random 0
 
+    # Create NETMGR daemon socket area
+    mkdir /dev/socket/netmgr 2770 radio radio
+
     # MUIC
     chown radio system /sys/class/sec/switch/usb_sel
     chown radio system /sys/class/sec/switch/usb_state
