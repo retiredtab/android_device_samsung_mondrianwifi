@@ -54,8 +54,9 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_CONFIG := lineage_mondrian_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8974
 TARGET_KERNEL_CLANG_COMPILE := false
-KERNEL_TOOLCHAIN := /tools/arm-gcc/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+#KERNEL_TOOLCHAIN := /tools/arm-gcc/bin
+#KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
 
 # Legacy BLOB Support
 TARGET_LD_SHIM_LIBS += \
