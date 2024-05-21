@@ -41,6 +41,9 @@ on init
     start qseecomd
     write /proc/sys/vm/page-cluster 0
 
+    # Charger
+    chown system system /sys/class/power_supply/battery/batt_slate_mode
+
 on fs
     mount_all /vendor/etc/fstab.qcom
     swapon_all /vendor/etc/fstab.qcom
