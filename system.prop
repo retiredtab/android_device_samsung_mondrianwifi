@@ -19,6 +19,7 @@ vendor.voice.path.for.pcm.voip=false
 
 # BPF
 ro.kernel.ebpf.supported=false
+bpf.progs_loaded=1
 
 # Bluetooth
 bluetooth.device.default_name=Samsung Galaxy Tab Pro 8.4
